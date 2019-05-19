@@ -1,0 +1,10 @@
+// Shadows Utilities
+
+$shadow: rgba(0,0,0,.8);
+$shadowWidth: 0;
+$shadowHeight: 0;
+$shadowExpand: 10px;
+
+.text-shadow{
+	text-shadow: $shadowWidth $shadowHeight $shadowExpand $shadow;
+}

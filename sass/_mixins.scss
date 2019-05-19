@@ -1,0 +1,7 @@
+// Mixins Rules
+
+@mixin backgroundImage($defaultValue){
+	background-position: $defaultValue;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

@@ -1,0 +1,208 @@
+// Spacing Rules
+
+$MarginUnitSpace: 30px;
+$PaddingUnitSpace: 5px;
+
+
+// ------------------------------------------------------
+// MARGIN -----------------------------------------------
+// ------------------------------------------------------
+
+// MARGIN  -------------------------------------------------
+.m-m{
+	margin: $MarginUnitSpace / 2;
+}
+
+.m-1{
+	margin: $MarginUnitSpace;
+}
+
+.m-2{
+	margin: $MarginUnitSpace * 2;
+}
+
+.m-3{
+	margin: $MarginUnitSpace * 3;
+}
+
+// MARGIN TOP ---------------------------------------------
+.mt-m{
+	margin-top: $MarginUnitSpace / 2;
+}
+
+.mt-1{
+	margin-top: $MarginUnitSpace;
+}
+
+.mt-2{
+	margin-top: $MarginUnitSpace * 2;
+}
+
+.mt-3{
+	margin-top: $MarginUnitSpace * 3;
+}
+
+// MARGIN RIGHT ------------------------------------------
+.mr-m{
+	margin-right: $MarginUnitSpace / 2;
+}
+
+.mr-1{
+	margin-right: $MarginUnitSpace;
+}
+
+.mr-2{
+	margin-right: $MarginUnitSpace * 2;
+}
+
+.mr-3{
+	margin-right: $MarginUnitSpace * 3;
+}
+
+// MARGIN BOTTOM ------------------------------------------
+.mb-m{
+	margin-bottom: $MarginUnitSpace / 2;
+}
+
+.mb-1{
+	margin-bottom: $MarginUnitSpace;
+}
+
+.mb-2{
+	margin-bottom: $MarginUnitSpace * 2;
+}
+
+.mb-3{
+	margin-bottom: $MarginUnitSpace * 3;
+}
+
+// MARGIN LEFT ------------------------------------------
+.ml-m{
+	margin-left: $MarginUnitSpace / 2;
+}
+
+.ml-1{
+	margin-left: $MarginUnitSpace;
+}
+
+.ml-2{
+	margin-left: $MarginUnitSpace * 2;
+}
+
+.ml-3{
+	margin-left: $MarginUnitSpace * 3;
+}
+
+// ------------------------------------------------------
+// PADDING ----------------------------------------------
+// ------------------------------------------------------
+
+
+// PADDING ----------------------------------------------
+
+.p-1{
+	padding: $PaddingUnitSpace;
+}
+
+.p-2{
+	padding: $PaddingUnitSpace * 2;
+}
+
+.p-3{
+	padding: $PaddingUnitSpace * 3;
+}
+
+.p-4{
+	padding: $PaddingUnitSpace * 4;
+}
+
+
+
+// PADDING TOP ------------------------------------------
+
+.pt-1{
+	padding-top: $PaddingUnitSpace;
+}
+
+.pt-2{
+	padding-top: $PaddingUnitSpace * 2;
+}
+
+.pt-3{
+	padding-top: $PaddingUnitSpace * 3;
+}
+
+.pt-4{
+	padding-top: $PaddingUnitSpace * 4;
+}
+
+// PADDING RIGHT ------------------------------------------
+
+.pr-1{
+	padding-right: $PaddingUnitSpace;
+}
+
+.pr-2{
+	padding-right: $PaddingUnitSpace * 2;
+}
+
+.pr-3{
+	padding-right: $PaddingUnitSpace * 3;
+}
+
+.pr-4{
+	padding-right: $PaddingUnitSpace * 4;
+}
+
+// PADDING BOTTOM ------------------------------------------
+
+.pb-1{
+	padding-bottom: $PaddingUnitSpace;
+}
+
+.pb-2{
+	padding-bottom: $PaddingUnitSpace * 2;
+}
+
+.pb-3{
+	padding-bottom: $PaddingUnitSpace * 3;
+}
+
+.pb-4{
+	padding-bottom: $PaddingUnitSpace * 4;
+}
+
+// PADDING LEFT ------------------------------------------
+
+.pl-1{
+	padding-left: $PaddingUnitSpace;
+}
+
+.pl-2{
+	padding-left: $PaddingUnitSpace * 2;
+}
+
+.pl-3{
+	padding-left: $PaddingUnitSpace * 3;
+}
+
+.pl-4{
+	padding-left: $PaddingUnitSpace * 4;
+}
+
+
+// ------------------------------------------------------
+// TEXT ALIGNS ------------------------------------------
+// ------------------------------------------------------
+
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-center{
+	text-align: center;
+}

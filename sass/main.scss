@@ -1,15 +1,27 @@
-// Base assets
-@import '_font.scss';
-@import '_icons.scss';
-@import '_space.scss';
-
-
-// Layout assets
-
-
 // Principal Tags Document 
 body{
 	margin: 0;
 	padding: 0;
 	font-family: 'montserrat', system-ui;
+	overflow-x: hidden;
 }
+
+// ---------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------
+
+// Base Assets
+@import '_colors.scss';
+@import '_query.scss';
+@import '_mixins.scss';
+@import '_titles.scss';
+@import '_shadows.scss';
+@import '_font.scss';
+@import '_icons.scss';
+@import '_utilities.scss';
+@import '_flex.scss';
+@import '_buttons.scss';
+
+
+// Layout Assets
+@import '_hero.scss';

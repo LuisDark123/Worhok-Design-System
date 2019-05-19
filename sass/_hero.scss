@@ -1,0 +1,33 @@
+// Heros
+
+main{
+	width: calc(100% - 40px);
+	height: 600px;
+	padding: 20px;
+	margin: 0;
+	background-image: url(../images/destacada/hero_main_wallpaper.webp);
+	@include backgroundImage(center);
+	color: $colorLight;
+	@media #{$l} {
+        align-items: center;
+    }
+    @media #{$sm} {
+        height: 80vh;
+    }
+	& div{
+		width: 600px;
+		height: auto;
+		@media #{$xl} {
+        }
+        @media #{$l} {
+            text-align: center;
+            margin: 0 !important;
+        }
+        @media #{$m} {
+        	width: 100%;
+        }
+        @media #{$sm} {
+        	text-align: left;
+        }
+	}
+}
