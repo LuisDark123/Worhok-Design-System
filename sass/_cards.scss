@@ -1,0 +1,37 @@
+
+.container-cards{
+	width: 90%;
+	max-width: 1178px;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: auto;
+	@media #{$l} {
+		// Blue
+		width: 100%;
+	}
+	@media #{$m} {
+		// Yellow
+		width: 100%;
+	}
+}
+
+
+.card-01-light{
+	width: 286px;
+	max-width: 286px;
+	height: 364px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	margin: 20px;
+	border-radius: 20px;
+	color: $colorLight;
+	@include boxShadow;
+	@include backgroundImage(center);
+}

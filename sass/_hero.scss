@@ -5,7 +5,7 @@ main{
 	height: 600px;
 	padding: 20px;
 	margin: 0;
-	background-image: url(../images/destacada/hero_main_wallpaper.webp);
+	background-image: url(../images/amazing/hero_main_wallpaper.webp);
 	@include backgroundImage(center);
 	color: $colorLight;
 	@media #{$l} {

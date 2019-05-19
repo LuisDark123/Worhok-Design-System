@@ -9,6 +9,10 @@ $PaddingUnitSpace: 5px;
 // ------------------------------------------------------
 
 // MARGIN  -------------------------------------------------
+.m-0{
+	margin: 0;
+}
+
 .m-m{
 	margin: $MarginUnitSpace / 2;
 }
@@ -99,6 +103,9 @@ $PaddingUnitSpace: 5px;
 
 
 // PADDING ----------------------------------------------
+.p-0{
+	padding: 0;
+}
 
 .p-1{
 	padding: $PaddingUnitSpace;
@@ -205,4 +212,17 @@ $PaddingUnitSpace: 5px;
 
 .text-center{
 	text-align: center;
+}
+
+// ------------------------------------------------------
+// BOLDER TEXT ------------------------------------------
+// ------------------------------------------------------
+
+
+.text-bold{
+	font-weight: bold;
+}
+
+.text-bolder{
+	font-weight: bolder;
 }
