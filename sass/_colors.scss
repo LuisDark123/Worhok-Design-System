@@ -3,5 +3,15 @@
 $colorPrimary: #0564FF;
 $colorSecondary: #4C0DFF;
 
-$colorLight: #f5f5f5;
+$colorLight: #ffffff;
 $colorDark: #1c1c1c;
+
+$colorTransparent: transparent;
+
+.text-light{
+	color: $colorLight;
+}
+
+.text-dark{
+	color: $colorDark;
+}

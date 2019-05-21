@@ -1,0 +1,187 @@
+// Navbar
+
+header{
+	max-height: 120px;
+	& img{
+		max-width: 168px;
+		max-height: 65px;
+	}
+	& nav{
+		display: block;
+		@media only screen and (max-width : 840px) {
+			position: fixed;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-evenly;
+			width: 224px;
+			height: calc(100% - 40px);
+			padding: 20px 5px;
+			left: -100%;
+			top: 0;
+			box-shadow: 0 0 15px $shadow;
+			transition: .3s all ease;
+			z-index: 98;
+	    }
+		& ul{
+			@media only screen and (max-width : 840px) {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				margin: 20px 0;
+				padding: 0;
+			}
+			& li{
+				list-style: none;
+				display: inline-block;
+				@media only screen and (max-width : 840px) {
+				    padding: 10px 0 !important;
+			    }
+				& a{
+					text-decoration: none;
+					outline: none;
+				}
+			}
+		}
+	}
+}
+
+
+%navbar-01{
+	width: calc(100% - 60px);
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 30px;
+	@media only screen and (max-width : 840px) {
+	    flex-direction: row-reverse;
+	}
+	& li{
+		padding: 0px 10px;
+	}
+}
+
+.navbar-01-dark{
+	@extend %navbar-01;
+	background: $colorDark;
+	@include boxShadow;
+	color: $colorLight;
+	& a{
+		color: $colorLight;
+	}
+}
+
+.navbar-01-light{
+	@extend %navbar-01;
+	background: $colorLight;
+	@include boxShadow;
+	color: $colorDark;
+	& a{
+		color: $colorDark;
+	}
+}
+
+.navbar-01-dark-transparent{
+	@extend %navbar-01;
+	position: absolute;
+	background: $colorTransparent;
+	color: $colorDark;
+	& a{
+		@include textShadow;
+		color: $colorDark;
+	}
+}
+
+.navbar-01-light-transparent{
+	@extend %navbar-01;
+	position: absolute;
+	background: $colorTransparent;
+	color: $colorLight;
+	& a{
+		@include textShadow;
+		color: $colorLight;
+	}
+}
+
+.navbar-btn-open{
+	font-size: 2rem;
+	cursor: pointer;
+	outline: none;
+	@media only screen and (min-width : 841px) {
+		display: none;
+	}
+}
+
+.navbar-btn-close{
+	font-size: 2rem;
+	cursor: pointer;
+	outline: none;
+	transition: .3s all ease;
+	position: fixed;
+	top: 0;
+	left: -100%;
+	z-index: 97;
+	background-color: $colorDark;
+	padding: 10px;
+	transition: .3s all ease;
+	@include boxShadow;
+	@media only screen and (min-width : 841px) {
+		display: none;
+	}
+}
+
+.navbar-head-mobile{
+	@media only screen and (min-width : 841px) {
+		display: none;
+	}
+}
+
+.navbar-footer-social{
+	& a{
+		text-decoration: none;
+		font-size: 1.3rem;
+		padding: 0 10px;
+	}
+	@media only screen and (min-width : 841px) {
+		display: none;
+	}
+}
+
+.navbar-btn-active{
+	left: calc(0% + 234px);
+}
+
+.navbar-btn-light{
+	color: $colorDark;
+	background-color: $colorLight;
+}
+
+.navbar-btn-dark{
+	color: $colorLight;
+	background-color: $colorDark;
+}
+
+.sidebar-active{
+	left: 0;
+	transition: .3s all ease;
+}
+
+.sidebar-light{
+    @media only screen and (max-width : 840px) {
+		background-color: $colorLight;
+		& a{
+		    color: $colorDark;
+	    }
+	}	
+}
+
+.sidebar-dark{
+	@media only screen and (max-width : 840px) {
+		background-color: $colorDark;
+		& a{
+		    color: $colorLight;
+	    }
+	}
+}

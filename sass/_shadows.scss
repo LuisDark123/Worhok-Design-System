@@ -9,6 +9,10 @@ $shadowExpand: 10px;
 	text-shadow: $shadowWidth $shadowHeight $shadowExpand $shadow;
 }
 
+@mixin textShadow(){
+	text-shadow: $shadowWidth $shadowHeight $shadowExpand $shadow;
+}
+
 @mixin boxShadow(){
 	box-shadow: $shadowWidth $shadowHeight $shadowExpand $shadow;
 }
