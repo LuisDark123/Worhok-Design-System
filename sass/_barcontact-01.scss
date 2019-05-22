@@ -1,0 +1,184 @@
+// Barcontact 01
+
+.barcontact-01-primary{
+	height: 40px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: $colorPrimary;
+	@include boxShadow;
+	position: relative;
+	z-index: 2;
+	@media #{$m} {
+		display: none;
+	}
+	& div{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: .8rem;
+		margin: 0 15px;
+		color: $colorLight;
+		@media #{$l} {
+			font-size: .7rem;
+	    }
+		& p{
+			padding: 0;
+			margin: 0 0 0 5px;
+		}
+	}
+}
+
+.barcontact-01-secondary{
+	height: 40px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: $colorSecondary;
+	@include boxShadow;
+	position: relative;
+	z-index: 2;
+	@media #{$m} {
+		display: none;
+	}
+	& div{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: .8rem;
+		margin: 0 15px;
+		color: $colorLight;
+		@media #{$l} {
+			font-size: .7rem;
+	    }
+		& p{
+			padding: 0;
+			margin: 0 0 0 5px;
+		}
+	}
+}
+
+.barcontact-01-dark{
+	height: 40px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: $colorDark;
+	@include boxShadow;
+	position: relative;
+	z-index: 2;
+	@media #{$m} {
+		display: none;
+	}
+	& div{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: .8rem;
+		margin: 0 15px;
+		color: $colorLight;
+		@media #{$l} {
+			font-size: .7rem;
+	    }
+		& p{
+			padding: 0;
+			margin: 0 0 0 5px;
+		}
+	}
+}
+
+.barcontact-02-primary{
+	height: 40px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: $colorPrimary;
+	@include boxShadow;
+	position: relative;
+	z-index: 2;
+	@media #{$m} {
+		justify-content: center;
+	}
+	& div{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: .8rem;
+		margin: 0 15px;
+		color: $colorLight;
+		@media #{$l} {
+			font-size: .7rem;
+	    }
+	    @media #{$m} {
+	    	text-align: center;
+	    }
+		& p{
+			padding: 0;
+			margin: 0 0 0 5px;
+		}
+	}
+}
+
+.barcontact-02-secondary{
+	height: 40px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: $colorSecondary;
+	@include boxShadow;
+	position: relative;
+	z-index: 2;
+	@media #{$m} {
+		justify-content: center;
+	}
+	& div{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: .8rem;
+		margin: 0 15px;
+		color: $colorLight;
+		@media #{$l} {
+			font-size: .7rem;
+	    }
+	    @media #{$m} {
+	    	text-align: center;
+	    }
+		& p{
+			padding: 0;
+			margin: 0 0 0 5px;
+		}
+	}
+}
+
+.barcontact-02-dark{
+	height: 40px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: $colorDark;
+	@include boxShadow;
+	position: relative;
+	z-index: 2;
+	@media #{$m} {
+		justify-content: center;
+	}
+	& div{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: .8rem;
+		margin: 0 15px;
+		color: $colorLight;
+		@media #{$l} {
+			font-size: .7rem;
+	    }
+	    @media #{$m} {
+	    	text-align: center;
+	    }
+		& p{
+			padding: 0;
+			margin: 0 0 0 5px;
+		}
+	}
+}
