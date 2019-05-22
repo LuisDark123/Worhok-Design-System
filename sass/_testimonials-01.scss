@@ -1,0 +1,149 @@
+// Testimonials
+
+.testimonials{
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.testimonial-info{
+	margin: 5px 0 0 10px;
+	& h4{
+		font-size: 1.2rem;
+		margin: 8px 0;
+	}
+	p{
+		font-size: 0.9rem;
+	}
+}
+
+.testimonial-container{
+	display: flex;
+	@media only screen and (max-width : 1124px)  {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+}
+
+.testimonial-01-light{
+	display: inline-block;
+	width: 360px;
+	height: auto;
+	padding: 20px;
+	margin: 5px;
+	background-color: $colorLight;
+	color: $colorDark;
+	@include boxShadow;
+	border-radius: 10px;
+	@media only screen and (max-width : 1280px)  {
+		width: 280px;
+	}
+	@media only screen and (max-width : 1050px)  {
+		width: 50%;
+	}
+	@media #{$m}  {
+		width: 80%;
+	}
+	@media #{$sm}  {
+		width: 100%;
+	}
+	& img{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		@include boxShadow;
+	}
+}
+
+.testimonial-01-primary{
+	display: inline-block;
+	width: 360px;
+	height: auto;
+	padding: 20px;
+	margin: 5px;
+	background-color: $colorPrimary;
+	color: $colorLight;
+	@include boxShadow;
+	border-radius: 10px;
+	@media only screen and (max-width : 1280px)  {
+		width: 280px;
+	}
+	@media only screen and (max-width : 1050px)  {
+		width: 50%;
+	}
+	@media #{$m}  {
+		width: 80%;
+	}
+	@media #{$sm}  {
+		width: 100%;
+	}
+	& img{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		@include boxShadow;
+	}
+}
+
+.testimonial-01-secondary{
+	display: inline-block;
+	width: 360px;
+	height: auto;
+	padding: 20px;
+	margin: 5px;
+	background-color: $colorSecondary;
+	color: $colorLight;
+	@include boxShadow;
+	border-radius: 10px;
+	@media only screen and (max-width : 1280px)  {
+		width: 280px;
+	}
+	@media only screen and (max-width : 1050px)  {
+		width: 50%;
+	}
+	@media #{$m}  {
+		width: 80%;
+	}
+	@media #{$sm}  {
+		width: 100%;
+	}
+	& img{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		@include boxShadow;
+	}
+}
+
+.testimonial-01-dark{
+	display: inline-block;
+	width: 360px;
+	height: auto;
+	padding: 20px;
+	margin: 5px;
+	background-color: $colorDark;
+	color: $colorLight;
+	@include boxShadow;
+	border-radius: 10px;
+	@media only screen and (max-width : 1280px)  {
+		width: 280px;
+	}
+	@media only screen and (max-width : 1050px)  {
+		width: 50%;
+	}
+	@media #{$m}  {
+		width: 80%;
+	}
+	@media #{$sm}  {
+		width: 100%;
+	}
+	& img{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		@include boxShadow;
+	}
+}
