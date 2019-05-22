@@ -1580,9 +1580,9 @@ h4 {
 }
 
 .flex-align-center {
-  -webkit-box-align: flex-center;
-  -ms-flex-align: flex-center;
-  align-items: flex-center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .flex-align-end {
