@@ -2,24 +2,92 @@
 
 %btn{
 	width: auto;
+	height: auto;
     padding: 15px 30px;
+    margin: 5px;
     text-decoration: none;
     outline: none;
     cursor: pointer;
     border: none;
     font-size: 1.2rem;
+    color: $colorLight;
+    display: inline-block;
+    text-align: center;
 }
 
-%btn-primary-property{
-	color: $colorLight;
+.btn-primary-flat{
+	@extend %btn;
 	background-color: $colorPrimary;
 }
 
-.btn-primary{
+.btn-primary-bordered{
 	@extend %btn;
-	@extend %btn-primary-property;
+	background-color: $colorPrimary;
+	border-radius: 5px;
 }
 
-.btn-rounded{
+.btn-primary-rounded{
+	@extend %btn;
+	background-color: $colorPrimary;
+	border-radius: 50px;
+}
+
+
+.btn-secondary-flat{
+	@extend %btn;
+	background-color: $colorSecondary;
+}
+
+.btn-secondary-bordered{
+	@extend %btn;
+	background-color: $colorSecondary;
+	border-radius: 5px;
+}
+
+.btn-secondary-rounded{
+	@extend %btn;
+	background-color: $colorSecondary;
+	border-radius: 50px;
+}
+
+
+.btn-light-flat{
+	@extend %btn;
+	background-color: $colorLight;
+	color: $colorDark;
+	@include boxShadow;
+}
+
+.btn-light-bordered{
+	@extend %btn;
+	background-color: $colorLight;
+	color: $colorDark;
+	@include boxShadow;
+	border-radius: 5px;
+}
+
+.btn-light-rounded{
+	@extend %btn;
+	background-color: $colorLight;
+	color: $colorDark;
+	@include boxShadow;
+	border-radius: 50px;
+}
+
+
+.btn-dark-flat{
+	@extend %btn;
+	background-color: $colorDark;
+}
+
+.btn-dark-bordered{
+	@extend %btn;
+	background-color: $colorDark;
+	border-radius: 5px;
+}
+
+.btn-dark-rounded{
+	@extend %btn;
+	background-color: $colorDark;
 	border-radius: 50px;
 }
