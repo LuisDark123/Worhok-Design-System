@@ -1,0 +1,38 @@
+// Layout content
+
+.layout-content-04{
+	width: 90%;
+	height: 300px;
+	margin-bottom: 30px;
+	padding: 10px;
+	display: inline-flex;
+	align-items: flex-end;
+	@include backgroundImage(center);
+	border-radius: 15px;
+	@media #{$l} {
+		width: 100%;
+	}
+	@media #{$m} {
+		// 
+	}
+	@media #{$sm} {
+		// 
+	}
+	& div{
+		padding: 5px;
+		color: $colorLight;
+		@include textShadow;
+	}
+	h3{
+		margin: 8px 0;
+	}
+	p{
+		width: 60%;
+		@media #{$l} {
+		    width: 80%;
+	    }
+	    @media #{$m} {
+		    width: 90%;
+	    }
+	}
+}
