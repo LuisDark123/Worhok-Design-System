@@ -1,8 +1,8 @@
 // Layout content
 
-.layout-content-04{
-	width: 90%;
-	height: 400px;
+.layout-content-05{
+	width: 45%;
+	height: 300px;
 	margin-bottom: 30px;
 	padding: 10px;
 	display: inline-flex;
@@ -10,13 +10,13 @@
 	@include backgroundImage(center);
 	border-radius: 15px;
 	@media #{$l} {
-		width: 100%;
+		// width: 100%;
 	}
 	@media #{$m} {
-		// 
+		width: 80%;
 	}
 	@media #{$sm} {
-		// 
+		width: 90%;
 	}
 	& div{
 		padding: 5px;
@@ -27,12 +27,12 @@
 		margin: 8px 0;
 	}
 	p{
-		width: 60%;
+		width: 100%;
 		@media #{$l} {
-		    width: 80%;
+		    // 
 	    }
 	    @media #{$m} {
-		    width: 90%;
+		    // 
 	    }
 	}
 }

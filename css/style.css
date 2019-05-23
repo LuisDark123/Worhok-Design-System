@@ -2414,7 +2414,7 @@ header nav ul li a {
 
 .layout-content-04 {
   width: 90%;
-  height: 300px;
+  height: 400px;
   margin-bottom: 30px;
   padding: 10px;
   display: -webkit-inline-box;
@@ -2459,6 +2459,49 @@ header nav ul li a {
   .layout-content-04 p {
     width: 90%;
   }
+}
+
+.layout-content-05 {
+  width: 45%;
+  height: 300px;
+  margin-bottom: 30px;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+@media (max-width: 750px) {
+  .layout-content-05 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 450px) {
+  .layout-content-05 {
+    width: 90%;
+  }
+}
+
+.layout-content-05 div {
+  padding: 5px;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.layout-content-05 h3 {
+  margin: 8px 0;
+}
+
+.layout-content-05 p {
+  width: 100%;
 }
 
 .testimonials {
@@ -2806,5 +2849,13 @@ main div {
 }
 
 #card_002 {
+  background-image: url(../images/amazing/hero_main_wallpaper.webp);
+}
+
+#card_003 {
+  background-image: url(../images/amazing/hero_main_wallpaper.webp);
+}
+
+#card_004 {
   background-image: url(../images/amazing/hero_main_wallpaper.webp);
 }
