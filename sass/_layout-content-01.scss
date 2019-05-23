@@ -8,7 +8,7 @@
 	@media #{$l} {
 		display: flex;
 		align-items: center;
-		width: 80%;
+		width: 100%;
 	}
 	@media #{$m} {
 		width: 80%;
@@ -20,6 +20,7 @@
 	}
 	& img{
 		width: 100%;
+		border-radius: 15px;
 		@media #{$l} {
 		    width: 50%;
 		    display: inline-block;

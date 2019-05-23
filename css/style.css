@@ -2242,7 +2242,7 @@ header nav ul li a {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -2262,6 +2262,7 @@ header nav ul li a {
 
 .layout-content-01 img {
   width: 100%;
+  border-radius: 15px;
 }
 
 @media (max-width: 1023px) {
@@ -2325,6 +2326,7 @@ header nav ul li a {
 
 .layout-content-02 img {
   width: 100%;
+  border-radius: 15px;
 }
 
 .layout-content-02 div {
@@ -2335,6 +2337,81 @@ header nav ul li a {
   margin: 8px 0;
 }
 
+.layout-content-03 {
+  width: 45%;
+  min-width: 50px;
+  height: auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-right: 10px;
+}
+
+@media (max-width: 1023px) {
+  .layout-content-03 {
+    width: 45%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 750px) {
+  .layout-content-03 {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+@media (max-width: 450px) {
+  .layout-content-03 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.layout-content-03 img {
+  width: 200px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+@media (max-width: 450px) {
+  .layout-content-03 img {
+    width: 70%;
+  }
+}
+
+.layout-content-03 div {
+  padding: 10px;
+}
+
+.layout-content-03 h3 {
+  font-size: 1.4rem;
+  margin: 8px 0;
+}
+
+.layout-content-03 p {
+  font-size: .9rem;
+}
+
 .testimonials {
   padding: 10px;
   display: -webkit-box;
@@ -2343,9 +2420,9 @@ header nav ul li a {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -2386,6 +2463,7 @@ header nav ul li a {
   display: inline-block;
   width: 360px;
   height: auto;
+  min-height: 147px;
   padding: 20px;
   margin: 5px;
   background-color: #ffffff;
@@ -2431,6 +2509,7 @@ header nav ul li a {
   display: inline-block;
   width: 360px;
   height: auto;
+  min-height: 147px;
   padding: 20px;
   margin: 5px;
   background-color: #0564FF;
@@ -2476,6 +2555,7 @@ header nav ul li a {
   display: inline-block;
   width: 360px;
   height: auto;
+  min-height: 147px;
   padding: 20px;
   margin: 5px;
   background-color: #4C0DFF;
@@ -2521,6 +2601,7 @@ header nav ul li a {
   display: inline-block;
   width: 360px;
   height: auto;
+  min-height: 147px;
   padding: 20px;
   margin: 5px;
   background-color: #1c1c1c;

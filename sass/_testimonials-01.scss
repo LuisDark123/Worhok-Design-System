@@ -4,7 +4,7 @@
 	padding: 10px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	flex-wrap: wrap;
 }
 
@@ -32,6 +32,7 @@
 	display: inline-block;
 	width: 360px;
 	height: auto;
+	min-height: 147px;
 	padding: 20px;
 	margin: 5px;
 	background-color: $colorLight;
@@ -62,6 +63,7 @@
 	display: inline-block;
 	width: 360px;
 	height: auto;
+	min-height: 147px;
 	padding: 20px;
 	margin: 5px;
 	background-color: $colorPrimary;
@@ -92,6 +94,7 @@
 	display: inline-block;
 	width: 360px;
 	height: auto;
+	min-height: 147px;
 	padding: 20px;
 	margin: 5px;
 	background-color: $colorSecondary;
@@ -122,6 +125,7 @@
 	display: inline-block;
 	width: 360px;
 	height: auto;
+	min-height: 147px;
 	padding: 20px;
 	margin: 5px;
 	background-color: $colorDark;
