@@ -2504,6 +2504,104 @@ header nav ul li a {
   width: 100%;
 }
 
+.layout-content-06-large {
+  width: 60%;
+  height: 300px;
+  margin-bottom: 30px;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+@media (max-width: 1023px) {
+  .layout-content-06-large {
+    width: 50%;
+  }
+}
+
+@media (max-width: 750px) {
+  .layout-content-06-large {
+    width: 80%;
+  }
+}
+
+@media (max-width: 450px) {
+  .layout-content-06-large {
+    width: 90%;
+  }
+}
+
+.layout-content-06-large div {
+  padding: 5px;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.layout-content-06-large h3 {
+  margin: 8px 0;
+}
+
+.layout-content-06-large p {
+  width: 100%;
+}
+
+.layout-content-06-small {
+  width: 30%;
+  height: 300px;
+  margin-bottom: 30px;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+@media (max-width: 1023px) {
+  .layout-content-06-small {
+    width: 40%;
+  }
+}
+
+@media (max-width: 750px) {
+  .layout-content-06-small {
+    width: 80%;
+  }
+}
+
+@media (max-width: 450px) {
+  .layout-content-06-small {
+    width: 90%;
+  }
+}
+
+.layout-content-06-small div {
+  padding: 5px;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.layout-content-06-small h3 {
+  margin: 8px 0;
+}
+
+.layout-content-06-small p {
+  width: 100%;
+}
+
 .testimonials {
   padding: 10px;
   display: -webkit-box;
@@ -2857,5 +2955,21 @@ main div {
 }
 
 #card_004 {
+  background-image: url(../images/amazing/hero_main_wallpaper.webp);
+}
+
+#card_005 {
+  background-image: url(../images/amazing/hero_main_wallpaper.webp);
+}
+
+#card_006 {
+  background-image: url(../images/amazing/hero_main_wallpaper.webp);
+}
+
+#card_007 {
+  background-image: url(../images/amazing/hero_main_wallpaper.webp);
+}
+
+#card_008 {
   background-image: url(../images/amazing/hero_main_wallpaper.webp);
 }
