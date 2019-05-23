@@ -22,6 +22,20 @@ a:any-link {
   text-decoration: none;
 }
 
+.container-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
 .text-light {
   color: #ffffff;
 }
@@ -2213,20 +2227,6 @@ header nav ul li a {
   display: inline-flex;
 }
 
-.container-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
 .layout-content-01 {
   width: 32%;
   height: auto;
@@ -2248,8 +2248,7 @@ header nav ul li a {
 
 @media (max-width: 750px) {
   .layout-content-01 {
-    width: 90%;
-    text-align: center;
+    width: 80%;
     display: inline-block;
     margin-bottom: 60px;
   }
@@ -2258,7 +2257,6 @@ header nav ul li a {
 @media (max-width: 450px) {
   .layout-content-01 {
     width: 100%;
-    text-align: left;
   }
 }
 
@@ -2275,7 +2273,7 @@ header nav ul li a {
 
 @media (max-width: 750px) {
   .layout-content-01 img {
-    width: 80%;
+    width: 100%;
     max-height: auto;
   }
 }
@@ -2303,6 +2301,37 @@ header nav ul li a {
 }
 
 .layout-content-01 h3 {
+  margin: 8px 0;
+}
+
+.layout-content-02 {
+  width: 45%;
+  height: auto;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 750px) {
+  .layout-content-02 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 450px) {
+  .layout-content-02 {
+    width: 100%;
+  }
+}
+
+.layout-content-02 img {
+  width: 100%;
+}
+
+.layout-content-02 div {
+  padding: 5px;
+}
+
+.layout-content-02 h3 {
   margin: 8px 0;
 }
 

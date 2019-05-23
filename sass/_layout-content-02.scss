@@ -1,0 +1,23 @@
+// Layout content
+
+.layout-content-02{
+	width: 45%;
+	height: auto;
+	display: inline-block;
+	margin-bottom: 30px;
+	@media #{$m} {
+		width: 80%;
+	}
+	@media #{$sm} {
+		width: 100%;
+	}
+	& img{
+		width: 100%;
+	}
+	& div{
+		padding: 5px;
+	}
+	h3{
+		margin: 8px 0;
+	}
+}
