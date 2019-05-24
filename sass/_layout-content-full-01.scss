@@ -1,0 +1,27 @@
+// Layout content full 01
+
+.layout-content-full-01{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	@media #{$m} {
+		height: 300px;
+	}
+	& p{
+		@include textShadow;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bolder;
+		color: white;
+		font-size: 2rem;
+		@media #{$m} {
+		    font-size: 1.5rem;
+	    }
+	}
+}
