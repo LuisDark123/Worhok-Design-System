@@ -2854,6 +2854,113 @@ header nav ul li a {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
+.icons-social-01-float {
+  margin: 5px;
+  position: absolute;
+  top: 50%;
+  z-index: 70;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (max-width: 750px) {
+  .icons-social-01-float {
+    display: none;
+  }
+}
+
+.icons-social-01-float a {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #1c1c1c;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.icons-social-02 {
+  margin: 5px;
+}
+
+.icons-social-02 a {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #ffffff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.icons-social-02 .icon-facebook {
+  background-color: #3C5A99;
+}
+
+.icons-social-02 .icon-instagram {
+  background-color: #D10869;
+}
+
+.icons-social-02 .icon-youtube {
+  background-color: #FF0000;
+}
+
+.icons-social-02 .icon-twitter {
+  background-color: #1DA1F3;
+}
+
+.icons-social-02-float {
+  margin: 5px;
+  position: absolute;
+  top: 50%;
+  z-index: 70;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (max-width: 750px) {
+  .icons-social-02-float {
+    display: none;
+  }
+}
+
+.icons-social-02-float a {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #ffffff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.icons-social-02-float .icon-facebook {
+  background-color: #3C5A99;
+}
+
+.icons-social-02-float .icon-instagram {
+  background-color: #D10869;
+}
+
+.icons-social-02-float .icon-youtube {
+  background-color: #FF0000;
+}
+
+.icons-social-02-float .icon-twitter {
+  background-color: #1DA1F3;
+}
+
 .testimonials {
   padding: 10px;
   display: -webkit-box;
