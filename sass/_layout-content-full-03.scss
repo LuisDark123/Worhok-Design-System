@@ -1,0 +1,31 @@
+// Layout content full 03
+
+.layout-content-full-03{
+	width: 100%;
+	height: auto;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-attachment: fixed;
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	h2{
+		@include textShadow;
+		color: $colorLight;
+	}
+	& .container-cards{
+		& .card-01-light:last-child{
+			@media only screen and (max-width : 830px) {
+		        display: none;
+		    }
+		    @media only screen and (max-width : 555px) {
+		        display: flex;
+		    }
+		}
+	}
+}
+
+// 830px breakpoint cards

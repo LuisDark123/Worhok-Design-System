@@ -1,4 +1,4 @@
-// Principal Tags Document 
+// Principal Tags Document --------------------------------------------------------------
 body{
 	margin: 0;
 	padding: 0;
@@ -23,7 +23,7 @@ a:any-link{
 // ---------------------------------------------------------------------------------------
 // ---------------------------------------------------------------------------------------
 
-// Base Assets
+// Base Assets ---------------------------------------------------------------------------
 @import '_colors.scss';
 @import '_query.scss';
 @import '_mixins.scss';
@@ -36,7 +36,7 @@ a:any-link{
 @import '_buttons.scss';
 
 
-// Layout Assets
+// Layout Assets -------------------------------------------------------------------------
 @import '_barcontact-01.scss';
 // @import '_navbar-01.scss';
 @import '_navbar-02.scss';
@@ -50,6 +50,7 @@ a:any-link{
 @import '_layout-content-07.scss';
 @import '_layout-content-full-01.scss';
 @import '_layout-content-full-02.scss';
+@import '_layout-content-full-03.scss';
 @import '_icons-social-01.scss';
 @import '_testimonials-01.scss';
 @import '_hero.scss';
