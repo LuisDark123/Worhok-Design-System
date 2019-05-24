@@ -1,0 +1,13 @@
+.grid-layout-02 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (minmax(200px, auto))[2];
+  grid-template-rows: repeat(2, minmax(200px, auto));
+  grid-gap: 5px;
+  padding: 10px; }
+  .grid-layout-02 img {
+    width: 100%;
+    margin: 0;
+    padding: 0; }

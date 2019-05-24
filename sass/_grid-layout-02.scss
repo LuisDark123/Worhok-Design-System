@@ -1,9 +1,9 @@
-// Grid Layout
+// Grid Layout 02
 
-.grid-layout-01{
+.grid-layout-02{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(2, minmax(200px, auto));
+	grid-template-rows: repeat(2, minmax(200px, 200px));
 	grid-gap: 5px;
 	padding: 10px;
 	& img{
