@@ -2826,6 +2826,20 @@ header nav ul li a {
   }
 }
 
+@media only screen and (max-width: 830px) {
+  .layout-content-full-03 .container-cards .card-01-dark:last-child {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  .layout-content-full-03 .container-cards .card-01-dark:last-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .icons-social-01 {
   margin: 5px;
 }

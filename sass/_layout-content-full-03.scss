@@ -26,6 +26,16 @@
 		    }
 		}
 	}
+	& .container-cards{
+		& .card-01-dark:last-child{
+			@media only screen and (max-width : 830px) {
+		        display: none;
+		    }
+		    @media only screen and (max-width : 555px) {
+		        display: flex;
+		    }
+		}
+	}
 }
 
 // 830px breakpoint cards
