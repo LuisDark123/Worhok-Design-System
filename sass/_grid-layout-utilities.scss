@@ -1,0 +1,56 @@
+// Grid Layout Utilities
+
+// .g-row-1{
+// 	grid-column: span 3;
+// 	grid-row: span 2;
+// }
+
+.g-row-1{
+	grid-row: span 1;
+}
+
+.g-row-2{
+	grid-row: span 2;
+}
+
+.g-row-3{
+	grid-row: span 3;
+}
+
+.g-row-4{
+	grid-row: span 4;
+}
+
+.g-row-5{
+	grid-row: span 5;
+}
+
+.g-row-6{
+	grid-row: span 6;
+}
+
+
+// Grid column asignment --------------------------------------------
+.g-column-1{
+	grid-column: span 1;
+}
+
+.g-column-2{
+	grid-column: span 2;
+}
+
+.g-column-3{
+	grid-column: span 3;
+}
+
+.g-column-4{
+	grid-column: span 4;
+}
+
+.g-column-5{
+	grid-column: span 5;
+}
+
+.g-column-6{
+	grid-column: span 6;
+}

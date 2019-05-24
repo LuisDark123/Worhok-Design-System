@@ -1,0 +1,14 @@
+// Grid Layout
+
+.grid-layout-01{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, minmax(200px, auto));
+	grid-gap: 5px;
+	padding: 10px;
+	& img{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}
