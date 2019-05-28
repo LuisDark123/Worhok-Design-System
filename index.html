@@ -112,7 +112,7 @@
 
 <!-- Content -->
 
-<section class="p-4" id="menu">
+<section id="menu">
 	<h2 class="text-center">Menu</h2>
 	<div class="container-content">
 		<div class="layout-content-01 scroll-reveal">
@@ -139,7 +139,7 @@
 	</div>
 </section>
 
-<section class="p-4">
+<section>
 	<h2 class="text-center">Novedades</h2>
 	<div class="container-content">
 		<div class="layout-content-02 scroll-reveal">
@@ -159,7 +159,7 @@
 	</div>
 </section>
 
-<section class="p-4" id="servicios">
+<section id="servicios">
 	<h2 class="text-center">Servicios</h2>
 	<div class="container-content">
 		<div class="layout-content-03 scroll-reveal">
@@ -193,7 +193,7 @@
 	</div>
 </section>
 
-<section class="p-4" id="nosotros">
+<section id="nosotros">
 	<h2 class="text-center">Nosotros</h2>
 	<div class="container-content">
 		<div class="layout-content-07-left scroll-reveal">
@@ -255,7 +255,7 @@
 	</div>
 </section>
 
-<section class="p-4">
+<section>
 	<h2 class="text-center">Destacado</h2>
 	<div class="container-content">
 		<div class="layout-content-04 scroll-reveal" id="card_002">
@@ -267,7 +267,7 @@
 	</div>
 </section>
 
-<section class="p-4">
+<section>
 	<h2 class="text-center">Noticias</h2>
 	<div class="container-content">
 		<div class="layout-content-05 scroll-reveal" id="card_003">
@@ -285,7 +285,7 @@
 	</div>
 </section>
 
-<section class="p-4">
+<section>
 	<h2 class="text-center">Blog</h2>
 	<div class="container-content">
 		<div class="layout-content-06-large scroll-reveal" id="card_005">
@@ -321,7 +321,7 @@
 	</div>
 </section> -->
 
-<section class="pt-4">
+<section class="p-0">
 	<div class="layout-content-full-02" id="layout-content-full-02">
 		<p>Creado con 💖 por Worhok</p>
 		<div class="icons-social-02">
@@ -332,7 +332,7 @@
 	</div>
 </section>
 
-<!-- <section class="pt-4">
+<!-- <section>
 	<div class="layout-content-full-03" id="layout-content-full-02">
 		<h2>Titulo de la sección</h2>
 		<div class="container-cards">
@@ -384,7 +384,7 @@
 	</div>
 </section>
  -->
-<section class="pt-4 pb-4" id="galeria">
+<section id="galeria">
 	<h2 class="text-center">Galeria</h2>
 	<div class="grid-layout-01 scroll-reveal">
 		<img src="images/assets/600x400.webp" class="g-col-2 g-row-2 g-m-col-2 g-m-row-1" alt="">
@@ -416,6 +416,21 @@
 	</div> -->
 </section>
 <!-- End Content -->
+
+<!-- Video -->
+<section id="videos" class="section-player scroll-reveal">
+	<h2 class="text-center">Videos</h2>
+    <div class="container-player">
+        <video poster="media/poster/poster.jpg" id="player" playsinline controls>
+            <source src="media/video/trailer.mp4" type="video/mp4" />
+            <!-- <source src="videos/trailer.webm" type="video/webm" /> -->
+
+            <!-- Captions are optional -->
+            <!-- <track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default /> -->
+        </video>
+    </div>
+</section>
+<!-- End Video -->
 
 <!-- Testimonials -->
 <section id="opiniones">
@@ -532,18 +547,26 @@
 <!-- End Barcontact -->
 
 <!-- ---------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------- -->
 
 <!-- Debug Query Linebar -->
 <div class="fixed-bar"></div>
 
-<!-- Stylesheets -->
+<!-- Stylesheets Base -->
     <link rel="stylesheet" type="text/css" href="css/style-min.css">
-<!-- Scripts -->
+
+<!-- Dependecies Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.5.3/plyr.css" />
+
+<!-- Dependencies Javascript -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script type="text/javascript" src="scripts/app.js"></script>
     <script src="scripts/jquery-1.8.3.min.js"></script>
     <script src="scripts/animatescroll.min.js"></script>
-    
+    <script src="https://cdn.plyr.io/3.5.3/plyr.js"></script>
+
+<!-- Javascript Base -->
+    <script type="text/javascript" src="scripts/app.js"></script>
 
 <!-- ---------------------------------------------------------------------- -->
 </body>

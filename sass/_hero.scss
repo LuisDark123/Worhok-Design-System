@@ -11,6 +11,9 @@ main{
 	@media #{$l} {
         align-items: center;
     }
+    @media #{$m} {
+        background-image: url(../images/amazing/hero_main_wallpaper_mobile.webp);
+    }
     @media #{$sm} {
         height: 80vh;
     }

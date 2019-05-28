@@ -44,3 +44,7 @@ function navbar_btn_dark(){
 // Scroll Reveal JS ------------------------------------------------------------
 
 ScrollReveal().reveal('.scroll-reveal', { easing: 'ease-in' });
+
+
+// Plyr JS ---------------------------------------------------------------------
+const player = new Plyr('#player');

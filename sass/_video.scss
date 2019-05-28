@@ -1,0 +1,34 @@
+// Video
+
+#videos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container-player{
+	width: 900px;
+	@media #{$l} {
+		width: 100%;
+	}
+	.plyr{
+	    border-radius: 15px;
+	    box-shadow: 0 0 15px $shadow;
+    }
+}
+
+.section-player{
+	@media #{$sm} {
+		padding: 0 5px;
+	}
+}
+
+.plyr__poster{
+	background-size: cover !important;
+}
+
+
+.container-player-fullscreen{
+	width: 100%;
+}
