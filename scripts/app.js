@@ -39,10 +39,8 @@ function navbar_btn_dark(){
 	}
 }
 
-// function navbar_btn_light(){
-// 	$navbar_btn.classList.toggle('navbar-btn-light');
-// }
 
-// function navbar_btn_dark(){
-// 	$navbar_btn.classList.toggle('navbar-btn-dark');
-// }
+
+// Scroll Reveal JS ------------------------------------------------------------
+
+ScrollReveal().reveal('.scroll-reveal', { easing: 'ease-in' });
