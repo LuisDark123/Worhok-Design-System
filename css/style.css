@@ -12,14 +12,17 @@ body {
 
 a:-webkit-any-link {
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:-moz-any-link {
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:any-link {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .container-content {
@@ -2475,6 +2478,7 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   outline: none;
+  cursor: pointer;
 }
 
 .navbar-02-dark, .navbar-02-light, .navbar-02-dark-transparent, .navbar-02-light-transparent {
