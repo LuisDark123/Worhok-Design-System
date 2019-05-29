@@ -1,12 +1,4 @@
 // Video
-
-#videos{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
 .container-player{
 	width: 900px;
 	@media #{$l} {
@@ -19,6 +11,10 @@
 }
 
 .section-player{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	@media #{$sm} {
 		padding: 0 5px;
 	}
