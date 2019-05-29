@@ -48,3 +48,9 @@ ScrollReveal().reveal('.scroll-reveal', { easing: 'ease-in' });
 
 // Plyr JS ---------------------------------------------------------------------
 const player = new Plyr('#player');
+
+
+// Blazy Load ------------------------------------------------------------------
+var bLazy = new Blazy({
+    selector: 'img'
+});
